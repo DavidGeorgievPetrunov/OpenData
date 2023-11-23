@@ -1,5 +1,5 @@
 async function mostrarDatos() {
-    const myApiUrl = "http://52.41.36.82:8000/autobuses";
+    const myApiUrl = "https://opendatadavidpetrunov.onrender.com/autobuses";
     var elemento = document.getElementById("ResultadoMostrarDatos");
     var select = document.getElementById("comunidades").value;
 
@@ -26,7 +26,7 @@ async function mostrarDatos() {
 }
 
 async function compararDatosTotal(){
-    const myApiUrl = "http://52.41.36.82:8000/autobuses";
+    const myApiUrl = "https://opendatadavidpetrunov.onrender.com/autobuses";
 
     var elemento = document.getElementById("ResultadoCompararTotalyPais") 
     var select = document.getElementById("comunidades").value;
@@ -58,7 +58,7 @@ async function compararDatosTotal(){
 
 async function mostrarArea(){
 
-    const myApiUrl = "http://52.41.36.82:8000/autobuses";
+    const myApiUrl = "https://opendatadavidpetrunov.onrender.com/autobuses";
 
     var elemento = document.getElementById("ResultadosAreaPais") 
     var select = document.getElementById("comunidades").value;
@@ -85,7 +85,7 @@ async function mostrarArea(){
 }
 
 async function mostrarPoblacionE(){
-    const myApiUrl = "http://52.41.36.82:8000/autobuses";
+    const myApiUrl = "https://opendatadavidpetrunov.onrender.com/autobuses";
     var elemento = document.getElementById("ResultadosAreaPaisMayor");
     var select = document.getElementById("comunidades").value;
 

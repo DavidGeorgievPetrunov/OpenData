@@ -167,7 +167,7 @@ async def autobuses(comunidades: Comunidades):
 
 if __name__ == "__main__":
     print("-> Inicio integrado de servicIo web")
-    uvicorn.run(app, host="52.41.36.82", port=8000)
+    uvicorn.run(app, host="https://opendatadavidpetrunov.onrender.com", port=8000)
 else:
     print("=> Iniciado desde el servidor web")
     print("   Módulo python iniciado:", __name__)
