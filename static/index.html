@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+
+<body>
+    <h1>España</h1>
+    <a
+        href="https://opendata.esri.es/datasets/ComunidadSIG::viajeros-entrados-por-puntos-turisticos-y-pais-de-residencia-/api">Link
+        Api</a>
+    <p>Esta api contiene informacion sobre paises y comunidades de España como su poblacion o el area que ocupan y la
+        cantidad de turismo en estos y de donde provienen los turistas</p>
+    <p>Esto sirve para mostrar en consola y el htlm los paises desde los cuales vienen turistas a cierta comunidad o
+        ciudad</p>
+    <br>
+    <label for="comunidades">Selecciona una zona:</label>
+    <select id="comunidades" name="comunidad">
+        <option value="VITORIA-GASTEIZ">Vitoria-Gasteiz</option>
+        <option value="ARAGON">Aragon</option>
+    </select>
+    <br>
+    <button id="mostrarDatos" onclick="mostrarDatos()">Mostrar Datos</button>
+    <p id="ResultadoMostrarDatos">Desconocido</p>
+    <h1>Pais de los Turistas</h1>
+    <p>Esto sirve para mostrar por consola y el htlm el porcentaje de turistas de ese pais</p>
+    <br>
+    <select id="pais" name="paises">
+        <option value="Francia">Francia</option>
+        <option value="Italia">Italia</option>
+    </select>
+    <br>
+    <button id="compararDatosTotal" onclick="compararDatosTotal()">Comparar cantidad turistas</button>
+    <p id="ResultadoCompararTotalyPais">Desconocido</p>
+    <h1>Area del Lugar</h1>
+    <p>Esto sirve para mostrar por consola y el htlm el tamaño</p>
+    <br>
+    <button id="mostrarArea" onclick="mostrarArea()">Mostrar Area</button>
+    <p id="ResultadosAreaPais">Desconocido</p>
+    <h1>Total de poblacion Extranjera</h1>
+    <p>Esto sirve para mostrar por consola y html el total de poblacion que es extranjera</p>
+    <br>
+    <button id="mostrarPoblacionE" onclick="mostrarPoblacionE()">Mostrar Poblacion Española</button>
+    <p id="ResultadosAreaPaisMayor">Desconocido</p>
+</body>
+<script src="static\script.js"></script>
+
+</html>
